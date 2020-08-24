@@ -1,0 +1,27 @@
+p {
+  font-family: Lato;
+}
+
+.header-wrapper {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+border-bottom: 1px solid grey;
+}
+
+.user-options, .navigation {
+  margin: 10px 30px;
+}
+
+i {
+  margin: 8px;
+}
+
+.navigation {
+  border-right: 1px solid lightgrey;
+}
+
+.user-options {
+  display: flex;
+  justify-content: space-between;
+}
